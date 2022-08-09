@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+.Background{
+    background-image: url("./images/image11.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+   
+
+}
+.colorbtn{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: 0px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+.video{
+    width: 100%;
+    height: 100% *70/100;
+
+}
+.page-footer{
+    background-color: black;
+    border-radius: 4%,4%,0%,0%;
+}
+.container{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top:20px;
+}
+
+#custCarousel .carousel-indicators > li {
+width:100px;
+}
+
+#custCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#custCarousel .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+.carousel-item img{
+
+  width:80%;
+}
+.animation{
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   {transform: translateY(300px);opacity:0}
+  
+  100% {transform: translateY(0px);opacity:1}
+}
+.animation1{
+  animation-name: example1;
+  animation-duration: 4s;
+}
+@keyframes example1 {
+  0%   {transform: translateX(300px);opacity:0}
+  
+  100% {transform: translateX(0px);opacity:1}
+}
